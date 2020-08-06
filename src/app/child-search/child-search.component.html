@@ -1,0 +1,7 @@
+<div class="box">
+<form class="form-inline" (submit)="onSubmit($event)">
+    <input (input)="term = $event.target.value " placeholder="Search" class="container">
+    <button class=" btn btn-outline-success my-sm-1 container" type="submit" (submit)="onSubmit($event)">Search</button>
+  </form>
+</div>
+  
